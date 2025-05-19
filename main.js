@@ -1,6 +1,6 @@
 import { io } from "https://cdn.socket.io/4.8.1/socket.io.esm.min.js";
 
-let socket = io("https://web-friends.onrender.com:3000");
+let socket = io("https://web-friends.onrender.com/");
 let keys;
 
 window.addEventListener('DOMContentLoaded', function() {
